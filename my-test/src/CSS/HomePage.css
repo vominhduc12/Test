@@ -1,0 +1,36 @@
+/* Định dạng phần container */
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Định dạng tiêu đề */
+header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+/* Nút bấm */
+.view-demos, .buy-now {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff5722;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.view-demos:hover, .buy-now:hover {
+  background-color: #e64a19;
+}
+
+/* Định dạng footer */
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
